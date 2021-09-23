@@ -1,3 +1,5 @@
+.cache
+textfiles
 .vscode
 CMakeCache.txt
 Katana_Engine
