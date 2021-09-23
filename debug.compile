@@ -1,4 +1,0 @@
-#!/bin/bash
-
-#cd build && cmake .. && cd .. && make -C build && printf "\n" && build/./Katana_Engine
-cmake . && printf "\n" && make && ./Katana_Engine

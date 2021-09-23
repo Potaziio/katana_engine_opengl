@@ -1,8 +1,0 @@
-.cache
-textfiles
-.vscode
-CMakeCache.txt
-Katana_Engine
-Makefile
-cmake_install.cmake
-debug.compile
