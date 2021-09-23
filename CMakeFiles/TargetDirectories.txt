@@ -1,0 +1,4 @@
+/home/potaziio-i3/Desktop/Coding/cpp-coding/opengl-sdl2-projects/first-test/CMakeFiles/rebuild_cache.dir
+/home/potaziio-i3/Desktop/Coding/cpp-coding/opengl-sdl2-projects/first-test/CMakeFiles/edit_cache.dir
+/home/potaziio-i3/Desktop/Coding/cpp-coding/opengl-sdl2-projects/first-test/CMakeFiles/Katana_Engine.dir
+/home/potaziio-i3/Desktop/Coding/cpp-coding/opengl-sdl2-projects/first-test/CMakeFiles/imgui.dir

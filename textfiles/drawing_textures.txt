@@ -1,0 +1,50 @@
+SDL_Window *window = SDL_CreateWindow("Title", 100, 100, 400, 600,SDL_WINDOW_SHOWN);
+/*You have created a variable named window which is in the type of SDL_Window,
+SDL_Create Window creates a window and it's attributes are inside the (), the first 
+one is the title, next is the x coordinate, then the y coordinate, then the width 
+of the window, the height of the window, then the command that the window could 
+understand you can put SDL_WINDOW_RESIZABLE if you want the window to be resizable etc.*/
+//Mind you that the (0,0) coordinate is in the top left of the screen so the greater the x value, the it moves to the right and the greater the y value, the more it moves down.
+
+
+//CREATE RENDERER
+SDL_Renderer *renderer = SDL_CreateRenderer( window, -1, SDL_RENDERER_ACCELERATED);
+/*You created a variable named renderer which is a type of SDL_Renderer, as you can
+see, SDL is very literal, SDL_CreateRenderer creates a renderer, the values inside
+the parentheses are (name of the window, the rendering drive, the command the 
+renderer would understand), the renderer needs to know what or where your window 
+is, thus, it asks for it then it needs to know what drive would work on it, you can
+put -1 to use the default one/the one you previously used, then the command.*/
+
+
+//CREATE TEXTURE
+SDL_Texture* texture = IMG_LoadTexture(renderer, "FILE");
+/*You created a texture variable, IMG_LoadTexture has the ability to load a picture
+and immediately convert it into a texture, it asks for your renderer since the 
+renderer is the one that would works on it and it also asks for the file name
+let's say your file's name is "texture.png" then you just input that in that area,
+the file should be placed inside the the folder that contains the other header files.
+
+//Now just loading a texture won't give you power over it, what you want now is to
+//gain control over it, that is why we create an rect
+
+SDL_Rect texture_rect;
+texture_rect.x = 0;  //the x coordinate
+texture_rect.y = 0; // the y coordinate
+texture_rect.w = 50; //the width of the texture
+texture_rect.h = 50; //the height of the texture
+
+/*Now, our texture should display the the top left corner since the coordinate is at
+(0,0) and it should be 50x50, which would make the texture be shaped like a square*/
+
+GAME LOOP AREA 
+SDL_RenderClear(renderer); //clears the renderer
+
+SDL_RenderCopy(renderer, texture, NULL, &texture_rect); 
+/*SDL_RenderCopy is responsible for making the gameloop understand that there's 
+something that wants to be rendered, inside the parentheses are (the renderer's name,
+the name of the texture, the area it wants to crop but you can leave this as NULL
+if you don't want the texture to be cropped, and the texture's rect)*/
+
+SDL_RenderPresent(renderer); //updates the renderer
+

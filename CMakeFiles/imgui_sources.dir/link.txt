@@ -1,0 +1,2 @@
+/usr/bin/ar qc libimgui_sources.a CMakeFiles/imgui_sources.dir/include/imgui/sources/imgui.cpp.o CMakeFiles/imgui_sources.dir/include/imgui/sources/imgui_draw.cpp.o CMakeFiles/imgui_sources.dir/include/imgui/sources/imgui_impl_opengl3.cpp.o CMakeFiles/imgui_sources.dir/include/imgui/sources/imgui_impl_sdl.cpp.o CMakeFiles/imgui_sources.dir/include/imgui/sources/imgui_tables.cpp.o CMakeFiles/imgui_sources.dir/include/imgui/sources/imgui_widgets.cpp.o
+/usr/bin/ranlib libimgui_sources.a

@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/Katana_Engine.dir/src/input.cpp.o CMakeFiles/Katana_Engine.dir/src/loadshaders.cpp.o CMakeFiles/Katana_Engine.dir/src/main.cpp.o CMakeFiles/Katana_Engine.dir/src/renderwindow.cpp.o CMakeFiles/Katana_Engine.dir/src/shape.cpp.o -o Katana_Engine  libimgui.a -lSDL2main -lSDL2_image -lSDL2 -lGL /usr/lib/libglfw.so.3.3 -ldl 

@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/potaziio-i3/Desktop/Coding/cpp-coding/opengl-sdl2-projects/first-test/build",
+  "command": "/usr/bin/c++ -I/home/potaziio-i3/Desktop/Coding/cpp-coding/opengl-sdl2-projects/first-test/Katana_Engine -g -o CMakeFiles/Katana_Engine.dir/src/input.cpp.o -c /home/potaziio-i3/Desktop/Coding/cpp-coding/opengl-sdl2-projects/first-test/src/input.cpp",
+  "file": "/home/potaziio-i3/Desktop/Coding/cpp-coding/opengl-sdl2-projects/first-test/src/input.cpp"
+},
+{
+  "directory": "/home/potaziio-i3/Desktop/Coding/cpp-coding/opengl-sdl2-projects/first-test/build",
+  "command": "/usr/bin/c++ -I/home/potaziio-i3/Desktop/Coding/cpp-coding/opengl-sdl2-projects/first-test/Katana_Engine -g -o CMakeFiles/Katana_Engine.dir/src/main.cpp.o -c /home/potaziio-i3/Desktop/Coding/cpp-coding/opengl-sdl2-projects/first-test/src/main.cpp",
+  "file": "/home/potaziio-i3/Desktop/Coding/cpp-coding/opengl-sdl2-projects/first-test/src/main.cpp"
+},
+{
+  "directory": "/home/potaziio-i3/Desktop/Coding/cpp-coding/opengl-sdl2-projects/first-test/build",
+  "command": "/usr/bin/c++ -I/home/potaziio-i3/Desktop/Coding/cpp-coding/opengl-sdl2-projects/first-test/Katana_Engine -g -o CMakeFiles/Katana_Engine.dir/src/renderwindow.cpp.o -c /home/potaziio-i3/Desktop/Coding/cpp-coding/opengl-sdl2-projects/first-test/src/renderwindow.cpp",
+  "file": "/home/potaziio-i3/Desktop/Coding/cpp-coding/opengl-sdl2-projects/first-test/src/renderwindow.cpp"
+}
+]
