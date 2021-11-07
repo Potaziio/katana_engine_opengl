@@ -1,0 +1,4 @@
+/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles/rebuild_cache.dir
+/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles/edit_cache.dir
+/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles/Katana_Engine.dir
+/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles/imgui_lib.dir

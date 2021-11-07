@@ -1,0 +1,2 @@
+/usr/bin/ar qc libglad_lib.a CMakeFiles/glad_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/glad/glad.c.o
+/usr/bin/ranlib libglad_lib.a
