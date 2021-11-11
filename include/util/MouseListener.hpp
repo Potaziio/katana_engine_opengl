@@ -14,6 +14,8 @@ class MouseListener {
         static bool mouseButtonPressed[4];
         static bool isDragging;
         static GLFWwindow* window;
+
+        static bool firstMove;
     public:
         MouseListener(GLFWwindow* p_window);
 
@@ -24,6 +26,8 @@ class MouseListener {
 
         static Vector2d GetMousePos();
         static Vector2d GetMouseScroll();
+        static Vector2d GetLastMousePos();
+
         static bool isMouseDragging();
         static bool mouseButtonDown(int button);
 };

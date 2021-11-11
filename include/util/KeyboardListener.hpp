@@ -6,8 +6,8 @@
 
 class KeyboardListener {
     private: 
-        static bool keyPressed[350];
+        static bool KeyDown[350];
     public:
         static void KeyCallback(GLFWwindow* window, int key, int scancode, int action, int mods);
-        static bool isKeyPressed(int keyCode);
+        static bool GetKeyDown(int keyCode);
 };

@@ -3,11 +3,11 @@
 #include <GLFW/glfw3.h>
 
 class Time {
-    private:
+    public:
         static float dt;
         static float beginTime;
         static float endTime;
-    public:
+
         static float GetMilliseconds();
         static float DeltaTime();
 };

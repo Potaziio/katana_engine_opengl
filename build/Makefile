@@ -238,6 +238,30 @@ home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui_lib.dir/build.make CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_glfw.cpp.s
 .PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_glfw.cpp.s
 
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.o: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.o
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.o
+
+# target to build an object file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui_lib.dir/build.make CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.o
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.o
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.i: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui_lib.dir/build.make CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.i
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.s: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui_lib.dir/build.make CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.s
+
 home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.o: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.cpp.o
 .PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.o
 
@@ -285,6 +309,78 @@ home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/
 home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui_lib.dir/build.make CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.cpp.s
 .PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.cpp.s
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.o: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.o
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.o
+
+# target to build an object file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.o
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.o
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.i: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.i
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.i
+
+# target to preprocess a source file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.i
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.i
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.s: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.s
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.s
+
+# target to generate assembly for a file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.s
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.s
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.o: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.o
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.o
+
+# target to build an object file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.o
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.o
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.i: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.i
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.i
+
+# target to preprocess a source file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.i
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.i
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.s: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.s
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.s
+
+# target to generate assembly for a file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.s
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.s
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.o: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.o
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.o
+
+# target to build an object file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.o
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.o
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.i: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.i
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.i
+
+# target to preprocess a source file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.i
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.i
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.s: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.s
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.s
+
+# target to generate assembly for a file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.s
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.s
 
 home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.o: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.cpp.o
 .PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.o
@@ -334,6 +430,30 @@ home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp.s
 .PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp.s
 
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.o: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.o
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.o
+
+# target to build an object file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.o
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.o
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.i: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.i
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.i
+
+# target to preprocess a source file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.i
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.i
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.s: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.s
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.s
+
+# target to generate assembly for a file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.s
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.s
+
 home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.o: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.cpp.o
 .PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.o
 
@@ -381,6 +501,54 @@ home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.s: 
 home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp.s
 .PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp.s
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.o: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.o
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.o
+
+# target to build an object file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.o
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.o
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.i: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.i
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.i
+
+# target to preprocess a source file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.i
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.i
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.s: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.s
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.s
+
+# target to generate assembly for a file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.s
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.s
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.o: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.o
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.o
+
+# target to build an object file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.o
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.o
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.i: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.i
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.i
+
+# target to preprocess a source file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.i
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.i
+
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.s: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.s
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.s
+
+# target to generate assembly for a file
+home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Katana_Engine.dir/build.make CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.s
+.PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.s
 
 home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.o: home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.cpp.o
 .PHONY : home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.o
@@ -476,24 +644,45 @@ help:
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_glfw.o"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_glfw.i"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_glfw.s"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.o"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.i"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.s"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.o"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.i"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.s"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.o"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.i"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.s"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.o"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.i"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.s"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.o"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.i"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.s"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.o"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.i"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.s"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.o"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.i"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.s"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.o"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.i"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.s"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.o"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.i"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.s"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.o"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.i"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.s"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.o"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.i"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.s"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.o"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.i"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.s"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.o"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.i"
+	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.s"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.o"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.i"
 	@echo "... home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.s"

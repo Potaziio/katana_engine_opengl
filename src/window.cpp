@@ -1,11 +1,5 @@
 #include "../include/Window.hpp"
 
-Shader defaultShader("../assets/Shaders/default.glsl");
-
-void Window::error_callback(int error, const char* description) {
-    fprintf(stderr, "ERROR: %s\n", description);
-}
-
 Window::Window(int width, int height, std::string windowName) {
     // Check if glfw init failed
     if (!glfwInit()) {
@@ -19,11 +13,29 @@ Window::Window(int width, int height, std::string windowName) {
     glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
 
     // Set current window and check if for errors
-    currentWindow = glfwCreateWindow(width, height, windowName.c_str(), NULL, NULL);
+    Window::currentWindow = glfwCreateWindow(width, height, windowName.c_str(), NULL, NULL);
 
-    if (!currentWindow) {
+    if (!Window::currentWindow) {
         std::cout << "Error creating window" << std::endl;
         glfwTerminate();
+    }
+}
+
+void Window::changeScene(int newScene) {
+    switch (newScene) {
+        case 0:
+            Window::currentScene = new EditorScene();
+            Window::currentScene->init();
+            Window::currentSceneIndex = newScene;
+            break;
+        case 1:
+            Window::currentScene = new GameScene();
+            Window::currentScene->init();
+            Window::currentSceneIndex = newScene;
+            break;
+        default:
+            std::cout << "ERROR: Unknown scene " << newScene << std::endl;
+            exit(EXIT_FAILURE);
     }
 }
 
@@ -36,82 +48,92 @@ void Window::run() {
     glfwSetCursorPosCallback(currentWindow, MouseListener::MouseCursorCallback);
     glfwSetScrollCallback(currentWindow, MouseListener::MouseScrollCallback);
     glfwSetMouseButtonCallback(currentWindow, MouseListener::MouseButtonCallback);
-    glfwSetErrorCallback(Window::error_callback);
 
     // Make window context
-    glfwMakeContextCurrent(currentWindow);
+    glfwMakeContextCurrent(Window::currentWindow);
 
     // Creating glew context
-
     GLenum err;
     if ((err = glewInit()) != GLEW_OK) {
         std::cout << "ERROR: glew init failed -> " << glewGetErrorString(err) << std::endl;
     }
 
+    // Create imgui context
+    ImGui::CreateContext();
+    ImGuiIO& io = ImGui::GetIO(); (void)io;
+
+    // Setup imgui style
+    ImGui::StyleColorsDark();
+
+    // Setup platform render backends
+    ImGui_ImplGlfw_InitForOpenGL(Window::currentWindow, true);
+    ImGui_ImplOpenGL3_Init("#version 130");
+
     // Enable V-SYNC
     glfwSwapInterval(1);
 
     // Make window visible
-    glfwShowWindow(currentWindow);
+    glfwShowWindow(Window::currentWindow);
 
-    // Hello Worlds
-
+    // Hello Worlds :)
     std::cout << "Hello GLFW -> " << glfwGetVersionString() << std::endl;
-    printf("Hello GLEW -> (%s)", glGetString(GL_VERSION));
-    printf("\n");
+    std::cout << "Hello GLEW -> " << glGetString(GL_VERSION) << std::endl; 
 
-    defaultShader.compileShaders();
+    // Seed random function
+    srand(static_cast<unsigned> (time(0)));
 
-    // Drawing the first triangle
-     float vertices[] = {
-         -0.5f, -0.5f, 0.0f,
-         0.5f, -0.5f, 0.0f,
-         0.0f, 0.5f, 0.0f 
-     };
-
-    unsigned int VBO;
-    glGenBuffers(1, &VBO);
-    glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-
-    glGenVertexArrays(1, &VAO);
-
-    glBindVertexArray(VAO);
-    glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
-    glEnableVertexAttribArray(0);
+    Window::changeScene(0);
 }
 
 void Window::loop() {
-    while (!glfwWindowShouldClose(currentWindow)) {
-        // Clear the color 
-        glClearColor(131.0f / 255.0f, 201.0f / 255.0f, 239.0f / 255.0f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
-   
-        defaultShader.use();
-        glBindVertexArray(VAO);
-        glDrawArrays(GL_TRIANGLES, 0, 3);
-
-        // Swap buffers
-        glfwSwapBuffers(currentWindow);
-
-        // Poll for events here
+    while (!glfwWindowShouldClose(Window::currentWindow)) {
         glfwPollEvents();
 
-        if (KeyboardListener::isKeyPressed(GLFW_KEY_ESCAPE)) {
-            std::cout << "\n Exiting..." << std::endl;
+        // Exit event 
+        if (KeyboardListener::GetKeyDown(GLFW_KEY_ESCAPE)) {
+            std::cout << "Exiting..." << std::endl;
             break;
         }
 
-        /* std::cout << "FPS: " << (0.001 / ((float)Time::DeltaTime() / 1000.0f)) << std::endl; */
+        glClear(GL_COLOR_BUFFER_BIT);
+
+        Window::currentScene->update();
+        
 
         MouseListener::endFrame();
+
+        glfwSwapBuffers(Window::currentWindow);
+
+        Time::endTime = Time::GetMilliseconds();
+        Time::dt = Time::endTime - Time::beginTime;
+        Time::beginTime = Time::endTime;
     }
+
+    EditorScene::freeResources();
+    GameScene::freeResources();
 }
 
-void Window::clearGLFW() {
-    glfwDestroyWindow(currentWindow);
+void Window::clearEverything() {
+    delete Window::currentScene;
+    // Destroy ImGui
+    ImGui_ImplOpenGL3_Shutdown();
+    ImGui_ImplGlfw_Shutdown();
+    ImGui::DestroyContext();
+
+    // Destroy glfw
+    glfwDestroyWindow(Window::currentWindow);
     glfwTerminate(); 
 }
+
+GLFWwindow* Window::getWindow() {
+    return Window::currentWindow;
+}
+
+int Window::getSceneIndex() {
+    return Window::currentSceneIndex;
+}
+
+Scene* Window::currentScene;
+int Window::currentSceneIndex;
+
+GLFWwindow* Window::currentWindow = NULL;

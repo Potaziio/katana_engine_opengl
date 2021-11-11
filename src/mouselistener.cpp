@@ -13,7 +13,14 @@ MouseListener::MouseListener(GLFWwindow* p_window) {
 // Mouse cursor movement callback
 
 void MouseListener::MouseCursorCallback(GLFWwindow* window, double xpos, double ypos) {
-    MouseListener::lastMousePos = Vector2d(MouseListener::mousePos.x, MouseListener::mousePos.y);
+    if (MouseListener::firstMove) 
+    {
+        MouseListener::lastMousePos = Vector2d(xpos, ypos);
+        MouseListener::firstMove = false; 
+    }
+    else 
+        MouseListener::lastMousePos = Vector2d(MouseListener::mousePos.x, MouseListener::mousePos.y);
+
     MouseListener::mousePos = Vector2d(xpos, ypos);
 }
 
@@ -52,6 +59,10 @@ Vector2d MouseListener::GetMousePos() {
     return Vector2d(MouseListener::xPos, MouseListener::yPos);
 }
 
+Vector2d MouseListener::GetLastMousePos() {
+    return lastMousePos;
+}
+
 // To get the mouse scroll
 
 Vector2d MouseListener::GetMouseScroll() {
@@ -84,3 +95,6 @@ Vector2d MouseListener::scroll;
 
 bool MouseListener::mouseButtonPressed[4];
 bool MouseListener::isDragging;
+
+// Check if its the first movement of the mouse, this is to prevent mouse jump when first focusing the window
+bool MouseListener::firstMove = true;

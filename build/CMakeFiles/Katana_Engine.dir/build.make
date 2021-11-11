@@ -69,10 +69,52 @@ include CMakeFiles/Katana_Engine.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Katana_Engine.dir/flags.make
 
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.o: CMakeFiles/Katana_Engine.dir/flags.make
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.o: /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.o: CMakeFiles/Katana_Engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.o -MF CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.o.d -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.o -c /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp
+
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp > CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.i
+
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.s
+
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.o: CMakeFiles/Katana_Engine.dir/flags.make
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.o: /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.o: CMakeFiles/Katana_Engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.o -MF CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.o.d -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.o -c /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp
+
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp > CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.i
+
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.s
+
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.o: CMakeFiles/Katana_Engine.dir/flags.make
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.o: /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.o: CMakeFiles/Katana_Engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.o -MF CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.o.d -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.o -c /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp
+
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp > CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.i
+
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.s
+
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.cpp.o: CMakeFiles/Katana_Engine.dir/flags.make
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.cpp.o: /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.cpp
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.cpp.o: CMakeFiles/Katana_Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.cpp.o -MF CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.cpp.o.d -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.cpp.o -c /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.cpp
 
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.cpp.i: cmake_force
@@ -86,7 +128,7 @@ CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp.o: CMakeFiles/Katana_Engine.dir/flags.make
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp.o: /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp.o: CMakeFiles/Katana_Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp.o -MF CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp.o.d -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp.o -c /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp
 
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp.i: cmake_force
@@ -97,10 +139,24 @@ CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp.s
 
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.o: CMakeFiles/Katana_Engine.dir/flags.make
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.o: /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.o: CMakeFiles/Katana_Engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.o -MF CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.o.d -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.o -c /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp
+
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp > CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.i
+
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.s
+
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.cpp.o: CMakeFiles/Katana_Engine.dir/flags.make
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.cpp.o: /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.cpp
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.cpp.o: CMakeFiles/Katana_Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.cpp.o -MF CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.cpp.o.d -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.cpp.o -c /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.cpp
 
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.cpp.i: cmake_force
@@ -114,7 +170,7 @@ CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp.o: CMakeFiles/Katana_Engine.dir/flags.make
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp.o: /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp.o: CMakeFiles/Katana_Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp.o -MF CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp.o.d -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp.o -c /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp
 
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp.i: cmake_force
@@ -125,10 +181,38 @@ CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp.s
 
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.o: CMakeFiles/Katana_Engine.dir/flags.make
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.o: /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.o: CMakeFiles/Katana_Engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.o -MF CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.o.d -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.o -c /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp
+
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp > CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.i
+
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.s
+
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.o: CMakeFiles/Katana_Engine.dir/flags.make
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.o: /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.o: CMakeFiles/Katana_Engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.o -MF CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.o.d -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.o -c /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp
+
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp > CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.i
+
+CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.s
+
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.cpp.o: CMakeFiles/Katana_Engine.dir/flags.make
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.cpp.o: /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.cpp
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.cpp.o: CMakeFiles/Katana_Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.cpp.o -MF CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.cpp.o.d -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.cpp.o -c /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.cpp
 
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.cpp.i: cmake_force
@@ -142,7 +226,7 @@ CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/vector.cpp.o: CMakeFiles/Katana_Engine.dir/flags.make
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/vector.cpp.o: /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/vector.cpp
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/vector.cpp.o: CMakeFiles/Katana_Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/vector.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/vector.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/vector.cpp.o -MF CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/vector.cpp.o.d -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/vector.cpp.o -c /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/vector.cpp
 
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/vector.cpp.i: cmake_force
@@ -156,7 +240,7 @@ CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/window.cpp.o: CMakeFiles/Katana_Engine.dir/flags.make
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/window.cpp.o: /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/window.cpp
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/window.cpp.o: CMakeFiles/Katana_Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/window.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/window.cpp.o -MF CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/window.cpp.o.d -o CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/window.cpp.o -c /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/window.cpp
 
 CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/window.cpp.i: cmake_force
@@ -169,10 +253,16 @@ CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana
 
 # Object files for target Katana_Engine
 Katana_Engine_OBJECTS = \
+"CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.o" \
+"CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.o" \
+"CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.o" \
 "CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.cpp.o" \
 "CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp.o" \
+"CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.o" \
 "CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.cpp.o" \
 "CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp.o" \
+"CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.o" \
+"CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.o" \
 "CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.cpp.o" \
 "CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/vector.cpp.o" \
 "CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/window.cpp.o"
@@ -180,17 +270,24 @@ Katana_Engine_OBJECTS = \
 # External object files for target Katana_Engine
 Katana_Engine_EXTERNAL_OBJECTS =
 
+Katana_Engine: CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/camera.cpp.o
+Katana_Engine: CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/editorscene.cpp.o
+Katana_Engine: CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/gamescene.cpp.o
 Katana_Engine: CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/keyboardlistener.cpp.o
 Katana_Engine: CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/main.cpp.o
+Katana_Engine: CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mathutils.cpp.o
 Katana_Engine: CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/mouselistener.cpp.o
 Katana_Engine: CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/shader.cpp.o
+Katana_Engine: CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/stb_image_imp.cpp.o
+Katana_Engine: CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/texture.cpp.o
 Katana_Engine: CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/time.cpp.o
 Katana_Engine: CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/vector.cpp.o
 Katana_Engine: CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/window.cpp.o
 Katana_Engine: CMakeFiles/Katana_Engine.dir/build.make
+Katana_Engine: libimgui_lib.a
 Katana_Engine: /usr/lib/libglfw.so.3.3
 Katana_Engine: CMakeFiles/Katana_Engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Katana_Engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Katana_Engine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Katana_Engine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

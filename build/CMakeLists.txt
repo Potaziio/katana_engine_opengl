@@ -17,7 +17,9 @@ file (GLOB IMGUI_SOURCES
     )
 
 file (GLOB INCLUDE_DIRS 
+    "../include/glm/*.hpp"
     "../include/imgui/*.h"
+    "../include/stb_image/stb_image.h"
     "../include/*.hpp"
     "../include/math/*.hpp"
     "../include/util*.hpp"
@@ -29,5 +31,5 @@ add_library(imgui_lib STATIC ${IMGUI_SOURCES})
 
 add_executable(Katana_Engine ${KATANA_SOURCE_FILES})
 
-target_link_libraries(Katana_Engine PUBLIC GL GLEW glfw ${CMAKE_DL_LIBS})
+target_link_libraries(Katana_Engine PUBLIC imgui_lib GL GLEW glfw ${CMAKE_DL_LIBS})
 

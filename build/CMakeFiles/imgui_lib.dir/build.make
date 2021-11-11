@@ -125,10 +125,24 @@ CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_eng
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_glfw.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_glfw.cpp -o CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_glfw.cpp.s
 
+CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/imgui_lib.dir/flags.make
+CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.o: /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp
+CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/imgui_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.o -MF CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.o -c /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp
+
+CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp > CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.i
+
+CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.s
+
 CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.cpp.o: CMakeFiles/imgui_lib.dir/flags.make
 CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.cpp.o: /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.cpp
 CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.cpp.o: CMakeFiles/imgui_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.cpp.o -MF CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.cpp.o.d -o CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.cpp.o -c /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.cpp
 
 CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_eng
 CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.cpp.o: CMakeFiles/imgui_lib.dir/flags.make
 CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.cpp.o: /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.cpp
 CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.cpp.o: CMakeFiles/imgui_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.cpp.o -MF CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.cpp.o -c /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.cpp
 
 CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.cpp.i: cmake_force
@@ -159,6 +173,7 @@ imgui_lib_OBJECTS = \
 "CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_demo.cpp.o" \
 "CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_draw.cpp.o" \
 "CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_glfw.cpp.o" \
+"CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.o" \
 "CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.cpp.o" \
 "CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.cpp.o"
 
@@ -169,11 +184,12 @@ libimgui_lib.a: CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-c
 libimgui_lib.a: CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_demo.cpp.o
 libimgui_lib.a: CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_draw.cpp.o
 libimgui_lib.a: CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_glfw.cpp.o
+libimgui_lib.a: CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_impl_opengl3.cpp.o
 libimgui_lib.a: CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_tables.cpp.o
 libimgui_lib.a: CMakeFiles/imgui_lib.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/include/imgui/imgui_widgets.cpp.o
 libimgui_lib.a: CMakeFiles/imgui_lib.dir/build.make
 libimgui_lib.a: CMakeFiles/imgui_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libimgui_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libimgui_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/imgui_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imgui_lib.dir/link.txt --verbose=$(VERBOSE)
 

@@ -5,11 +5,6 @@ float Time::GetMilliseconds() {
 }
 
 float Time::DeltaTime() {
-
-    Time::endTime = Time::GetMilliseconds();
-    Time::dt = Time::endTime - Time::beginTime;
-    Time::beginTime = Time::endTime;
-
     return dt;
 }
  

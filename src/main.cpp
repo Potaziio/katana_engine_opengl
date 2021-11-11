@@ -2,10 +2,10 @@
 
 int main(int argc, char* args[])
 {
-    Window mainWindow(1200, 800, "Katana Engine"); 
+    Window mainWindow(1400, 1000, "Katana Engine"); 
     mainWindow.run();
     mainWindow.loop();
-    mainWindow.clearGLFW();
-
+    mainWindow.clearEverything();
+    
     return 0;
 }

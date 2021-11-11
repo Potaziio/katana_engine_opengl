@@ -8,7 +8,7 @@ Shader::Shader(std::string ShaderPath) {
 
     myShaderFile.open(ShaderPath);
 
-    if (!myShaderFile.is_open()) {std::cout << "ERROR: " << "failed while opening shader file, wrong path???" << std::endl; return;}
+    if (!myShaderFile.is_open()) {std::cout << "ERROR: " << "failed while opening shader file, wrong path???" << std::endl; exit(EXIT_FAILURE);}
 
     while (getline(myShaderFile, line)) {
         source += line;
@@ -40,7 +40,7 @@ void Shader::compileShaders() {
     // VERTEX SHADER
     // ===============================
 
-    // Create both vertex and fragment shader
+    // Create both vertex and fragment shader variables
     unsigned int vertexShader, fragmentShader;
 
     // Create vertex shader
@@ -58,7 +58,7 @@ void Shader::compileShaders() {
     if (!success) {
         glGetShaderInfoLog(vertexShader, 512, NULL, infoLog);
         std::cout << "ERROR::SHADER::VERTEX::COMPILATION_FAILED\n" << infoLog << std::endl;
-        return;
+        exit(EXIT_FAILURE);
     }
 
     // ===============================
@@ -78,7 +78,7 @@ void Shader::compileShaders() {
     if (!success) {
         glGetShaderInfoLog(fragmentShader, 512, NULL, infoLog);
         std::cout << "ERROR::SHADER::FRAGMENT::COMPILATION_FAILED\n" << infoLog << std::endl;
-        return;
+        exit(EXIT_FAILURE);
     }
 
     // Link shaders to a shader program to use for rendering;
@@ -97,18 +97,43 @@ void Shader::compileShaders() {
     if (!success) {
         glGetProgramInfoLog(shaderProgram, 512, NULL, infoLog);
         std::cout << "ERROR::SHADER::PROGRAM::LINKING_FAILED\n" << infoLog << std::endl;
-        return;
+        exit(EXIT_FAILURE);
     }
 
     glDeleteShader(vertexShader);
     glDeleteShader(fragmentShader);
 }
 
+void Shader::sendFloat(const char* name, float val) {
+    use();
+    glUniform1f(glGetUniformLocation(shaderProgram, name), val);
+}
+
+void Shader::sendInt(const char* name, int val) {
+    use();
+    glUniform1i(glGetUniformLocation(shaderProgram, name), val);
+}
+
+void Shader::sendTexture(const char* name, Texture texture, GLint position) {
+    use();
+    glUniform1i(glGetUniformLocation(shaderProgram, name), position);
+}
+
+void Shader::sendMat4(const char* name, glm::mat4 mat) {
+    use();
+    glUniformMatrix4fv(glGetUniformLocation(shaderProgram, name), 1, GL_FALSE, glm::value_ptr(mat));
+}
+
 void Shader::use() {
-    glUseProgram(shaderProgram);
+    if (!beingUsed) 
+        glUseProgram(shaderProgram);
 }
 
 void Shader::detach() {
     glUseProgram(0); 
+    beingUsed = false;
 }
 
+unsigned int Shader::getProgram() {
+    return shaderProgram;
+}

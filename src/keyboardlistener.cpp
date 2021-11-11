@@ -2,14 +2,12 @@
 
 void KeyboardListener::KeyCallback(GLFWwindow* window, int key, int scancode, int action, int mods) {
     if (action == GLFW_PRESS) {
-        keyPressed[key] = true;
+        KeyDown[key] = true;
     } else if (action == GLFW_RELEASE) {
-        keyPressed[key] = false;
+        KeyDown[key] = false;
     }
 }
 
-bool KeyboardListener::isKeyPressed(int keyCode) {
-    return keyPressed[keyCode];
-}
+bool KeyboardListener::GetKeyDown(int keyCode) {return KeyDown[keyCode];}
 
-bool KeyboardListener::keyPressed[350];
+bool KeyboardListener::KeyDown[350];
