@@ -21,7 +21,7 @@ void GameScene::init() {
     std::cout << "In Game scene" << std::endl;
     game_myTexture = Texture("../assets/Textures/container.jpg");
 
-    this->p_camera = Camera(glm::vec3(0.0f, 0.0f, 6.0f), 0.1f, 100.0f, 45.0f);
+    this->camera = Camera(glm::vec3(0.0f, 0.0f, 6.0f), 0.1f, 100.0f, 45.0f);
 
     if (changeScene) {
         changeScene = false;
@@ -85,7 +85,7 @@ void GameScene::update() {
         hasFinishedAnimation = true;
     }
 
-    this->p_camera.updateViewMatrix();
+    this->camera.updateViewMatrix();
     
     if (hasFinishedAnimation && !changeScene && KeyboardListener::GetKeyDown(GLFW_KEY_SPACE)) {
         Window::changeScene(0);
@@ -93,19 +93,19 @@ void GameScene::update() {
     }
 
     if (KeyboardListener::GetKeyDown(GLFW_KEY_W)) {
-        this->p_camera.cameraPos += (game_cameraSpeed * game_cameraUp) * Time::DeltaTime();
+        this->camera.cameraPos += (game_cameraSpeed * game_cameraUp) * Time::DeltaTime();
     }
 
     if (KeyboardListener::GetKeyDown(GLFW_KEY_S)) {
-        this->p_camera.cameraPos -= (game_cameraSpeed * game_cameraUp) * Time::DeltaTime();
+        this->camera.cameraPos -= (game_cameraSpeed * game_cameraUp) * Time::DeltaTime();
     }
 
     if (KeyboardListener::GetKeyDown(GLFW_KEY_D)) { 
-        this->p_camera.cameraPos += (glm::normalize(glm::cross(game_cameraFront, game_cameraUp)) * game_cameraSpeed) * Time::DeltaTime();
+        this->camera.cameraPos += (glm::normalize(glm::cross(game_cameraFront, game_cameraUp)) * game_cameraSpeed) * Time::DeltaTime();
     }
 
     if (KeyboardListener::GetKeyDown(GLFW_KEY_A)) {
-        this->p_camera.cameraPos -= (glm::normalize(glm::cross(game_cameraFront, game_cameraUp)) * game_cameraSpeed) * Time::DeltaTime();
+        this->camera.cameraPos -= (glm::normalize(glm::cross(game_cameraFront, game_cameraUp)) * game_cameraSpeed) * Time::DeltaTime();
     }
 
 
@@ -118,9 +118,9 @@ void GameScene::update() {
     glActiveTexture(GL_TEXTURE0);
     game_myTexture.bind();
 
-    game_defaultShader.sendMat4("model", this->p_camera.getTransfomMatrix());
-    game_defaultShader.sendMat4("projection", this->p_camera.getProjectionMatrix());
-    game_defaultShader.sendMat4("view", this->p_camera.getViewMatrix());
+    game_defaultShader.sendMat4("model", this->camera.getTransfomMatrix());
+    game_defaultShader.sendMat4("projection", this->camera.getProjectionMatrix());
+    game_defaultShader.sendMat4("view", this->camera.getViewMatrix());
 
     glBindVertexArray(game_VAO);
 

@@ -23,6 +23,9 @@ file (GLOB INCLUDE_DIRS
     "../include/*.hpp"
     "../include/math/*.hpp"
     "../include/util*.hpp"
+    "../include/components/*.hpp"
+    "../include/gameobject/*.hpp"
+    "../include/scene/*.hpp"
     )
 
 include_directories(Katana_Engine ${KATANA_INCLUDE_FILES})

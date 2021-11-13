@@ -427,9 +427,14 @@ CMakeFiles/Katana_Engine.dir/home/potaziio-arch/Desktop/Coding/cpp-coding/katana
  /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/../include/scene/EditorScene.hpp \
  /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/../include/scene/Scene.hpp \
  /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/../include/scene/Camera.hpp \
+ /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/../include/scene/../gameobject/GameObject.hpp \
+ /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/../include/scene/../gameobject/../gameobject/Component.hpp \
  /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/../include/scene/../imgui/imgui_impl_glfw.h \
  /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/../include/scene/../imgui/imgui.h \
  /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/../include/scene/../imgui/imconfig.h \
  /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/../include/scene/../imgui/imgui_impl_opengl3.h \
+ /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/../include/scene/../components/Transform.hpp \
+ /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/../include/scene/../components/SpriteRenderer.hpp \
+ /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/../include/scene/../components/MeshRenderer.hpp \
  /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/../include/scene/GameScene.hpp \
  /home/potaziio-arch/Desktop/Coding/cpp-coding/katana_engine_opengl/src/../include/math/MathUtils.hpp

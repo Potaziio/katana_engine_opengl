@@ -98,7 +98,6 @@ void Window::loop() {
         glClear(GL_COLOR_BUFFER_BIT);
 
         Window::currentScene->update();
-        
 
         MouseListener::endFrame();
 
@@ -111,6 +110,10 @@ void Window::loop() {
 
     EditorScene::freeResources();
     GameScene::freeResources();
+}
+
+Scene* Window::getCurrentScene() {
+    return currentScene;
 }
 
 void Window::clearEverything() {

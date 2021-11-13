@@ -11,6 +11,7 @@
 #include "../util/Time.hpp"
 #include "../Window.hpp"
 #include "../util/Texture.hpp"
+#include "../gameobject/GameObject.hpp"
 
 class GameScene : public Scene {
     public:

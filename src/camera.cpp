@@ -19,7 +19,6 @@ void Camera::updateViewMatrix() {
     viewMatrix = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
 }
 
-
 glm::mat4 Camera::getProjectionMatrix() {
     return projectionMatrix;
 }

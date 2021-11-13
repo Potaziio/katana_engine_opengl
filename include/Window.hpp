@@ -35,6 +35,9 @@ class Window {
         void run();
         void loop();
         static void changeScene(int newScene);
+
+        static Scene* getCurrentScene();
+
         static int getSceneIndex();
         void clearEverything();
 };
